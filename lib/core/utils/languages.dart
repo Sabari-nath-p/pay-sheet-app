@@ -175,6 +175,24 @@ class Languages extends Translations {
       'account_balance': 'Account Balance',
       'credit': 'Credit',
       'debit': 'Debit',
+
+      // Update and App Management
+      'update_available_title': 'Update Available',
+      'force_update_title': 'Update Required',
+      'update_available_message':
+          'A new version of the app is available. Update now to enjoy the latest features and improvements.',
+      'force_update_message':
+          'This update is required to continue using the app. Please update to the latest version.',
+      'current_version': 'Current Version',
+      'latest_version': 'Latest Version',
+      'update_now': 'Update Now',
+      'later': 'Later',
+      'update_error_message':
+          'Unable to open app store. Please try again later.',
+      'initializing_firebase': 'Initializing Firebase...',
+      'checking_for_updates': 'Checking for updates...',
+      'app_ready': 'App ready!',
+      'version_1_0_0': 'Version 1.0.0',
     },
     'ar_SA': {
       // Common
@@ -347,6 +365,24 @@ class Languages extends Translations {
       'account_balance': 'رصيد الحساب',
       'credit': 'دائن',
       'debit': 'مدين',
+
+      // Update and App Management
+      'update_available_title': 'تحديث متاح',
+      'force_update_title': 'تحديث مطلوب',
+      'update_available_message':
+          'إصدار جديد من التطبيق متاح. حدث الآن للاستمتاع بأحدث الميزات والتحسينات.',
+      'force_update_message':
+          'هذا التحديث مطلوب لمواصلة استخدام التطبيق. يرجى التحديث إلى أحدث إصدار.',
+      'current_version': 'الإصدار الحالي',
+      'latest_version': 'أحدث إصدار',
+      'update_now': 'حدث الآن',
+      'later': 'لاحقاً',
+      'update_error_message':
+          'غير قادر على فتح متجر التطبيقات. يرجى المحاولة مرة أخرى لاحقاً.',
+      'initializing_firebase': 'تهيئة Firebase...',
+      'checking_for_updates': 'فحص التحديثات...',
+      'app_ready': 'التطبيق جاهز!',
+      'version_1_0_0': 'الإصدار 1.0.0',
     },
   };
 }

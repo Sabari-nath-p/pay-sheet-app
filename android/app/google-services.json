@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "914999766274",
+    "project_id": "paysheet-86012",
+    "storage_bucket": "paysheet-86012.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914999766274:android:bd6bc6689996ed95d7261b",
+        "android_client_info": {
+          "package_name": "com.paysheet.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtq8vM6qfZ4JIy6wZlYLte4KWKzgZs8Vk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914999766274:android:982ffa2ebfad5718d7261b",
+        "android_client_info": {
+          "package_name": "com.paysheet.app.paysheet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtq8vM6qfZ4JIy6wZlYLte4KWKzgZs8Vk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

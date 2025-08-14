@@ -1,16 +1,17 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:paysheet_app/Screens/AuthenticationScreens/AuthenticationScreen.dart';
-import 'package:paysheet_app/Screens/Owners/OwnerHomeScreen/OwnerHomeScreen.dart';
+import 'package:paysheet_app/Screens/SplashScreen/splash_screen.dart';
 import 'package:paysheet_app/core/theme/app_theme.dart';
 import 'package:paysheet_app/core/utils/languages.dart';
+import 'package:paysheet_app/firebase_options.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   // Load saved language preference
   final prefs = await SharedPreferences.getInstance();
   final languageCode = prefs.getString('language_code') ?? 'en';
@@ -44,7 +45,7 @@ class PaysheetApp extends StatelessWidget {
           ],
           supportedLocales: const [Locale('en', 'US'), Locale('ar', 'SA')],
           translations: Languages(),
-          home: AuthenticationScreen(),
+          home: const SplashScreen(),
         );
       },
     );
